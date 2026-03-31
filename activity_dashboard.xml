@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_bg"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WB Camera"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="16sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnVirtualCamera"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="@string/start_camera"
+        android:textSize="16sp"
+        android:backgroundTint="@color/blue_info"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnStopCamera"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="@string/stop_camera"
+        android:textSize="16sp"
+        android:backgroundTint="@color/red_error"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnGalleryVideo"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="@string/select_video"
+        android:textSize="16sp"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnCloneApp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="@string/clone_app"
+        android:textSize="16sp"
+        android:backgroundTint="#FF9800"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code: WahidFriend"
+        android:textSize="14sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setup: Developer Options → Mock Camera → WB Camera"
+        android:textSize="11sp"
+        android:textColor="#888888"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

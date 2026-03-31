@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_bg"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WB Camera"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textSize="18sp"
+        android:textColor="@color/green_success"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:hint="@string/opening_code_hint"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorHint="#888888"
+        android:background="@android:drawable/editbox_background"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="@string/submit_btn"
+        android:textSize="18sp"
+        android:backgroundTint="@color/green_success"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Wahid Developer"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
